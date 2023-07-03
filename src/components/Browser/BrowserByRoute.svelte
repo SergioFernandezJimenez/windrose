@@ -21,6 +21,5 @@ import PlaneIcon from "../../lib/assets/icons/plane.svg"
     display: flex;
     align-items: center;
     gap: 1rem;
-    width: 100%;
   }
 </style>

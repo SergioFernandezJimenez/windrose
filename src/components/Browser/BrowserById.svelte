@@ -9,4 +9,7 @@
     flex-direction: column;
     gap: 0.5rem;
   }
+  input {
+    width: 177px;
+  }
 </style>
