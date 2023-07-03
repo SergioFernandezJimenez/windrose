@@ -39,11 +39,20 @@
 
 <style>
   .container {
-    min-width: 450px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 450px;
     padding: 1rem;
     border: 1px solid #eee;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 12rem;
+    left: 0;
+    right: 0;
+    background-color:white;
+    z-index: 1;
   }
 
   .buttonContainer {
