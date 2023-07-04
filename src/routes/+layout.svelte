@@ -1,9 +1,16 @@
-<slot />
+<script>
+	import '../app.css';
+	import Header from '../components/Header/header.svelte';
+	import BrowserContent from '../components/Browser/BrowserContent.svelte';
+</script>
 
-<style>
-  :global(body) {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-			Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    min-height: 100vh;
-  }
-</style>
+<Header />
+<BrowserContent />
+<main>
+	<slot />
+</main>
+<footer>
+	Created by&nbsp;<a target="_blank" href="https://github.com/SergioFernandezJimenez"
+		>Sergio Fernández</a
+	>
+</footer>

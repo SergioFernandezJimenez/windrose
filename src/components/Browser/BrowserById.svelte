@@ -1,15 +1,16 @@
 <div>
-<strong>Busca por número de vuelo</strong>
-  <input type="search" placeholder="Número de vuelo"/>
+	<input type="search" placeholder="Número de vuelo" />
 </div>
 
 <style>
-  div {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-  input {
-    width: 177px;
-  }
+	div {
+		display: flex;
+		justify-content: center;
+	}
+	input {
+		width: 200px;
+		border: none;
+		border-radius: 10px;
+		padding: 1rem;
+	}
 </style>
